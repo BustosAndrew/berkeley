@@ -30,7 +30,7 @@ def prompt(request): # post /api/prompt
     prompt = data.get('prompt')
 
     ans = answer_question(df, question=f"{prompt} Please show me a correct, valid link to a page that also answers my question in a separate paragraph titled Relevant Link(s). Make the links surrounded by a tags with a src attribute loaded with their link.", debug=False)
-    output = {'res': ans}
+    output = {'answer': ans}
     res = HttpResponse(content=json.dumps(
             output), content_type='application/json')
     return res
