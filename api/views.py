@@ -29,7 +29,7 @@ def prompt(request): # post /api/prompt
     # Access the properties from the JSON data
     prompt = data.get('prompt')
 
-    ans = answer_question(df, question=f"{prompt} Please show me a correct, valid link to a page that also answers my question in a separate paragraph titled Relevant Link(s). Make the links surrounded by a tags with a src attribute loaded with their link.", debug=False)
+    ans = answer_question(df, question=f"{prompt} Please show me a correct, valid link to a page that also answers my question in a separate paragraph titled Relevant Link(s). Remove any html syntax.", debug=False)
     output = {'answer': ans}
     res = HttpResponse(content=json.dumps(
             output), content_type='application/json')

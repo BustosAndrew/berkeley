@@ -84,6 +84,7 @@ wcwidth='0.2.5'
 yarg='0.1.9'
 yarl='1.8.2'
 django = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 

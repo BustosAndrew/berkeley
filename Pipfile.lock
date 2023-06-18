@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c8be8967dd266a08ce2933d4908b9e141f15d81657888ab282e963bb7c151c8f"
+            "sha256": "ac3e019fb40b605da2f31ddbee82a89bbd617cbd6375ad977f6db34563586865"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -376,6 +376,14 @@
             ],
             "index": "pypi",
             "version": "==4.2.2"
+        },
+        "django-cors-headers": {
+            "hashes": [
+                "sha256:36a8d7a6dee6a85f872fe5916cc878a36d0812043866355438dfeda0b20b6b78",
+                "sha256:88a4bfae24b6404dd0e0640203cb27704a2a57fd546a429e5d821dfa53dd1acf"
+            ],
+            "index": "pypi",
+            "version": "==4.1.0"
         },
         "docopt": {
             "hashes": [
