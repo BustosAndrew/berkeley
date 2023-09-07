@@ -2,6 +2,7 @@
 This is the backend for the web app, all written in django utilizing text-davinci-003 to provide text completions based off web scraped data.
 
 Demo:
+
 https://github.com/BustosAndrew/berkeley/assets/22780026/0fc4dc74-4871-4deb-a194-b3bee27696ee
 
 Main code:
